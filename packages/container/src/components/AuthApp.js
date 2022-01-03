@@ -1,5 +1,5 @@
 import React, { useRef, useLayoutEffect } from 'react';
-import { mount } from 'marketing/MarketingApp';
+import { mount } from 'auth/AuthApp';
 import { useHistory } from 'react-router-dom';
 
 export default () => {
