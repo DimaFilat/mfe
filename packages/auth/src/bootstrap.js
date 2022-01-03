@@ -4,6 +4,7 @@ import { createMemoryHistory, createBrowserHistory } from 'history';
 import App from './App';
 
 // Mount function to start up the app
+// return callback function to get actual browser history state
 const mount = (el, { onNavigate, onSignIn, defaultHistory, initialPath }) => {
   const history =
     defaultHistory ||
